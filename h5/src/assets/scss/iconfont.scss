@@ -1,0 +1,6 @@
+/* 
+* development 使用路径的方式引入方便开发，线上不可以使用外部cdn方式，防止出现不可控的意外
+* iconfont文件夹中保存的是下载之后的文件，提测或发布一定要使用这样的本地引入
+*/
+
+@import url('//at.alicdn.com/t/font_597103_tefyiegvyze.css');

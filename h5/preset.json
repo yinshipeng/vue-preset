@@ -1,0 +1,36 @@
+{
+  "useTaobaoRegistry": true,
+  "packageManager": "yarn",
+  "presets": {
+    "normal1": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "standard",
+          "lintOn": [
+            "save"
+          ]
+        }
+      },
+      "router": true,
+      "routerHistoryMode": true,
+      "vuex": true,
+      "cssPreprocessor": "node-sass"
+    },
+    "test1": {
+      "useConfigFiles": false,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "prettier",
+          "lintOn": [
+            "save"
+          ]
+        }
+      }
+    }
+  },
+  "latestVersion": "4.5.6",
+  "lastChecked": 1600670852175
+}

@@ -1,0 +1,48 @@
+.c333 {
+    color: #333;
+}
+
+.c666 {
+    color: #666;
+}
+
+.c999 {
+    color: #999;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f13 {
+    font-size: 13px;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.clear-border {
+    border: none !important;
+}
+
+.table_page {
+    margin: 20px 0;
+    text-align: right;
+}
+
+.page {
+    background-color: #ffffff;
+    margin: 148px 20px 20px 20px;
+    padding: 20px;
+    min-height: 100vh;
+    overflow: hidden;
+
+    .page-opt {
+        margin: 20px 0;
+    }
+}
+
+.dynamic {
+    transition: all 0.3s ease 0s;
+}
